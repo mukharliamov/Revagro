@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8735d1d3-6ecd-44c4-b30a-6500cddbcf6d">
+  <producedTypes>
+    <selectionType typeId="4459caf9-66d2-4435-ada4-402f66eebaf5" valueTypeId="5afc1d3b-7d72-4af8-a598-e93a994af289"/>
+    <listType typeId="75242eba-0390-4d00-a62a-d53671142bf6" valueTypeId="10f80438-5f55-440b-9906-4baa0a98d523"/>
+    <managerType typeId="f0d60646-984b-4d87-b79c-2136a8b787e5" valueTypeId="b5567ead-15a1-4cc0-ade6-9f7623f7f454"/>
+    <recordSetType typeId="ce343dd6-93b1-4b8c-a26f-ff78c9dc8b7d" valueTypeId="ed489007-f332-419e-913d-b40c0baf522b"/>
+    <recordKeyType typeId="79591ff4-247f-49a7-bf93-1071052ec50e" valueTypeId="c64fd70e-4a21-45a7-85bf-4760ab19e16a"/>
+    <recordType typeId="a412a104-c90d-47d1-8a35-7bb45ab3b999" valueTypeId="64139e96-180a-4736-bf67-9f795ab9a664"/>
+    <recordManagerType typeId="4d3af76a-385d-40d2-bfef-d51d749cfabc" valueTypeId="d8dce0bf-e9c7-4793-8ebf-88a83bab1955"/>
+  </producedTypes>
+  <name>revagro_ПротоколЗагрузкиФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Протокол загрузки файлов (Revagro)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="d6e38990-0d7b-46c7-ad78-bac0c7cc4bcc">
+    <name>ДатаСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата события</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4e051cdf-f686-4d78-94e4-130c386729d8">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a478deb4-5031-49c1-9749-a10ba08b982e">
+    <name>ТипОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип ошибки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.revagro_ТипыОшибок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

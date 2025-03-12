@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2c966fb-8222-4342-9b9b-14c29ccc0f91">
+  <producedTypes>
+    <objectType typeId="4f6e0539-2f6d-4511-bfc5-4bc2fa6baeaf" valueTypeId="78810504-8937-4067-a5b2-78f213927468"/>
+    <managerType typeId="f6fe07e6-0de5-4880-ae7a-58f7b8b50a88" valueTypeId="c930470a-a6f2-42e0-b594-74ce622a4432"/>
+  </producedTypes>
+  <name>ТестРевагро</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест ревагро</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ТестРевагро.Form.Форма</defaultForm>
+  <forms uuid="4b8bf083-6a9b-4469-a600-c13b5849e5b9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e2c4b0f-de7e-42a4-8351-a4e88dde2735">
+  <name>revagro_АвтоматическоеСчитываниеФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматическое считывание файлов (Revagro)</value>
+  </synonym>
+  <methodName>CommonModule.revagro_ЗагрузкаФайлов.СчитатьФайлыНаСервере</methodName>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

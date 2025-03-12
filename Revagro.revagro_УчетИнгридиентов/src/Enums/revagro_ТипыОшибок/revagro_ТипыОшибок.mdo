@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d39a467b-d47a-4fbb-91aa-777f14a62f9c">
+  <producedTypes>
+    <refType typeId="3092d7bb-a421-4d2b-b342-e6fee8fbe6e5" valueTypeId="7c5f1c30-2287-4fb9-958d-497a245e1610"/>
+    <listType typeId="23f6f9ae-67e9-4cb1-92c0-245c47979fe9" valueTypeId="7a7e8098-18f5-4a05-99d4-9c1379045316"/>
+    <managerType typeId="2edc9338-67c4-4901-90b1-116dd7fa1d5c" valueTypeId="4981a833-a140-4de9-bb72-7ebaa1a732c5"/>
+  </producedTypes>
+  <name>revagro_ТипыОшибок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ошибок (Revagro)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="309f4140-cb16-4231-9a83-d67fb2dec750">
+    <name>КолонкаНеНайдена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Колонка не найдена</value>
+    </synonym>
+    <comment>Состав колонок загружаемого файла не соответствует ожиданиям. Возможно, изменились настройки на оборудовании</comment>
+  </enumValues>
+</mdclass:Enum>

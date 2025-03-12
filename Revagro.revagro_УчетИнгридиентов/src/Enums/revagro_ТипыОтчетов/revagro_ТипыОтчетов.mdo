@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="341068a1-e16c-4553-8200-6179777ba0f4">
+  <producedTypes>
+    <refType typeId="d67a6c0b-6952-4067-9523-d527959d04c7" valueTypeId="4c37bdbe-739f-47e9-af12-f7555db4344a"/>
+    <listType typeId="5a5eff17-d769-4c6f-a201-08be1d3697aa" valueTypeId="1a7a1ab1-303b-4b00-a74d-04fc432a964b"/>
+    <managerType typeId="872deae6-9578-4ca7-89ce-7e82ac5ee219" valueTypeId="e8f6391b-f20a-4636-bfcd-acf77426eeaa"/>
+  </producedTypes>
+  <name>revagro_ТипыОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы отчетов (Revagro)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dcc445af-f76a-4665-8b35-a8d40d36eff5">
+    <name>Отгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгрузка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="88009f97-738b-40a8-822e-265711f73b8e">
+    <name>РасходИнгридиентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход ингридиентов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

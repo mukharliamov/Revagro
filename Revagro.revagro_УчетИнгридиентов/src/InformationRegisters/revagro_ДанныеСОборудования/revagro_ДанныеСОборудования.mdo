@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bcd71e5-825a-4a6e-86ca-6e27884de904">
+  <producedTypes>
+    <selectionType typeId="6b83ebdf-a9ab-4d32-88c7-9ca6d4c8597a" valueTypeId="61c32f91-d891-474a-b80f-2dfdf2cf06df"/>
+    <listType typeId="65a35ca3-5db6-48ce-82f4-5454cb6e98de" valueTypeId="ab089bde-be74-40dd-b3cc-b564e4c230c1"/>
+    <managerType typeId="a67b5bdd-5a12-4040-9d5d-1e18b1c6d545" valueTypeId="07042e9d-72f7-4424-97c2-da3b1f72de39"/>
+    <recordSetType typeId="42734429-0646-48a2-b368-b5e09574ffa9" valueTypeId="42d77b85-616a-4a82-9a88-420b63df9ac0"/>
+    <recordKeyType typeId="188406bd-fb7b-41c0-8fed-a6a4b09ba59b" valueTypeId="39a8a2c2-9f00-4911-b5a3-e1a5c6bd7428"/>
+    <recordType typeId="e5a6aa23-a821-4aca-9f21-bf21e8044724" valueTypeId="c998f28e-bb0a-4a6e-b007-a40f05835ae6"/>
+    <recordManagerType typeId="2912d179-fe68-487d-8cf8-6730e8965075" valueTypeId="9203d408-c07d-4436-9028-6bcc713b2193"/>
+  </producedTypes>
+  <name>revagro_ДанныеСОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Revagro данные с оборудования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5a6fcc3a-0721-4e46-8464-adfa4dd41369">
+    <name>ДанныеСтрокиJSON</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные строки JSON</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="5ef1c806-8433-4bd7-97de-348e2c0cb188">
+    <name>ДатаОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата операции</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="9e3d8226-24e1-43db-a641-37c560824d10">
+    <name>ТипОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип отчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.revagro_ТипыОтчетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="d3d1e1e5-7546-49b6-aace-90d59dc70891">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a7c34135-ddf4-4c95-8ded-41d0ecbeaceb">
+    <name>ПорядковыйНомерСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер строки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
