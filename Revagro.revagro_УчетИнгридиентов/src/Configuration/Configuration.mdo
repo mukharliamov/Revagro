@@ -22,7 +22,7 @@
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="d1853a05-8aaa-429f-b89d-57a8e3e44409"/>
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
   <namePrefix>revagro_</namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.26</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.25</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
