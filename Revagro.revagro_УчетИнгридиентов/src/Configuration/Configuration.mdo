@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2626ece0-ba1f-403e-80a9-fd4946faa4f4">
+  <name>revagro_УчетИнгридиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет ингридиентов (Revagro)</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d2a05ee4-7f3e-4c59-b9ac-b29d83fc0936"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="61d2850f-04c3-47b0-932c-4132c099cc0d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="c18c62cb-4c6e-4842-b611-28cc95b56f7f"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="6833e74d-515e-4ae9-beef-a5102a5b6599"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="037347af-ecc6-4d2b-87fe-7dc1c134e7b5"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="212af214-acb3-4e09-8932-b502c3457e0f"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="d1853a05-8aaa-429f-b89d-57a8e3e44409"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>revagro_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.25</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.revagro_ОсновнаяРоль</defaultRoles>
+  <version>2.0.1</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="73ca5b4e-8a4e-404e-837f-254e061a6b73">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.revagro_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.revagro_ЗагрузкаФайлов</commonModules>
+  <scheduledJobs>ScheduledJob.revagro_АвтоматическоеСчитываниеФайлов</scheduledJobs>
+  <constants>Constant.revagro_КаталогСФайлами</constants>
+  <catalogs>Catalog.revagro_НастройкиЧтенияФайлов</catalogs>
+  <enums>Enum.revagro_ТипыОшибок</enums>
+  <enums>Enum.revagro_РасширенияФайлов</enums>
+  <enums>Enum.revagro_ТипыОтчетов</enums>
+  <enums>Enum.revagro_ПримитивныеТипы</enums>
+  <dataProcessors>DataProcessor.revagro_ТестРевагро</dataProcessors>
+  <informationRegisters>InformationRegister.revagro_ДанныеСОборудования</informationRegisters>
+  <informationRegisters>InformationRegister.revagro_ПротоколЗагрузкиФайлов</informationRegisters>
+  <informationRegisters>InformationRegister.revagro_ФайлыЗагруженные</informationRegisters>
+</mdclass:Configuration>

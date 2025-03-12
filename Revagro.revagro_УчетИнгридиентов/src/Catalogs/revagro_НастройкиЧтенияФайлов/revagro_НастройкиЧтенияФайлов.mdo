@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c3a2c02-4a3a-4e52-8570-22b63f996389">
+  <producedTypes>
+    <objectType typeId="3a6af923-2e0b-47d7-b72d-76f653d4ec55" valueTypeId="e7b8ebca-56a7-4811-9002-783c05f20405"/>
+    <refType typeId="96e07c55-cb43-425a-8d74-76dc53fb751b" valueTypeId="11f3ff6b-09e9-45f9-861e-b5409b95b1e1"/>
+    <selectionType typeId="5f72e24c-050e-4d09-8294-cbb4f81fffe7" valueTypeId="24b86e36-fb8e-4689-b752-fcfd92b1681b"/>
+    <listType typeId="fca8edab-8771-4be4-bbf4-968a75019213" valueTypeId="668e73c8-2565-4efe-866c-3ae44cf4d834"/>
+    <managerType typeId="97ba229c-ef46-48c6-9f82-9eeb91543d02" valueTypeId="0dee6a26-9cc4-443d-86a8-73e176b686c1"/>
+  </producedTypes>
+  <name>revagro_НастройкиЧтенияФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки чтения файлов (Revagro)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.revagro_НастройкиЧтенияФайлов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.revagro_НастройкиЧтенияФайлов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.revagro_НастройкиЧтенияФайлов.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="78bc51b6-8ea6-49eb-a2a5-2d066957fed3">
+    <name>ПрефиксИмениФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Префикс имени файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="48042c1b-53a8-461d-ab8b-9d2ea676d844">
+    <name>РасширениеФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение файла</value>
+    </synonym>
+    <type>
+      <types>EnumRef.revagro_РасширенияФайлов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="940cc7b7-59da-4b7b-85c7-55173db5c557">
+    <name>ТипОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип отчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.revagro_ТипыОтчетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="f6587e44-1a62-4a47-b2d9-2cceb7940382">
+    <producedTypes>
+      <objectType typeId="8495893c-7d50-479c-aacc-ffb44e966d7f" valueTypeId="689bcb0a-67f8-4bd6-9a6d-4f42a1389598"/>
+      <rowType typeId="cfe12dcc-f5ba-406b-b7ae-99b4d0802c70" valueTypeId="8a1f9864-717a-4957-be27-3a34e89c2c3a"/>
+    </producedTypes>
+    <name>СоответствиеРеквизитовФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие реквизитов файла</value>
+    </synonym>
+    <attributes uuid="3b532eeb-1b31-4064-9434-30b03d209df5">
+      <name>ИмяРеквизитаВФайле</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя реквизита в файле</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="41fd14fd-fb5e-4707-accf-1b14e9c7cae1">
+      <name>ИмяРеквизитаБД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя реквизита БД</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f39d976b-329f-45dd-809e-f5415098d4d1">
+      <name>ТипПоля</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип</value>
+      </synonym>
+      <type>
+        <types>EnumRef.revagro_ПримитивныеТипы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="efdca7ba-1908-42f6-9228-a44622233482">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

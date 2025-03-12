@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4dc32324-f441-4a87-89de-739f822a5c98">
+  <producedTypes>
+    <managerType typeId="c8cca1cd-e6fb-4447-abe6-d71f1798446e" valueTypeId="bcc8f7a9-fb11-433f-bd29-8efe4213db30"/>
+    <valueManagerType typeId="00c708a3-ee8f-4073-96cc-8c29a4a6d764" valueTypeId="eb3b14e7-7c4c-4373-98f1-93e86c4d9789"/>
+    <valueKeyType typeId="df73b55c-4afc-492a-97e6-468c7383a706" valueTypeId="a9e01408-6910-4e14-b579-01a2c2866ca4"/>
+  </producedTypes>
+  <name>revagro_КаталогСФайлами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог с файлами (Revagro)</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

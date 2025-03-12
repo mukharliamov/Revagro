@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b183653-0c43-4936-a80b-4ece6ef86cc8">
+  <producedTypes>
+    <selectionType typeId="240d5020-5b39-487a-9156-57fbaa973c46" valueTypeId="a0b1b951-adbf-4a95-aba3-9bc7e3c84e8d"/>
+    <listType typeId="66b41beb-2106-4f62-9fa2-b00d4bed2695" valueTypeId="5b739562-34e3-41c0-9e84-a4a3dba0cfe8"/>
+    <managerType typeId="edc5fa45-06b4-4e74-a1c5-f44b3126a39c" valueTypeId="9a733bdd-cd17-49fe-b627-d6a65117fe68"/>
+    <recordSetType typeId="112ca27c-7d19-4301-af2f-34bad9d8408c" valueTypeId="fa9a4d34-c521-4ca1-9c81-243831287a43"/>
+    <recordKeyType typeId="2bb14768-107b-42c9-93ce-93194e265f9e" valueTypeId="3c727e94-7a36-4d05-911a-05286d3b67f9"/>
+    <recordType typeId="1801f42d-e6e8-4dd3-8088-04bc77d9addc" valueTypeId="396d9e58-93c2-42ff-ba8a-0b5474227af7"/>
+    <recordManagerType typeId="32f39126-2727-4b49-978b-a1fc0ca0921a" valueTypeId="a4d70fe8-9be7-4f45-814f-7fbadfdb6686"/>
+  </producedTypes>
+  <name>revagro_ФайлыЗагруженные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файлы загруженные (Revagro)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="581e9423-04ac-448c-97c6-e2adaa49007c">
+    <name>НомерПопытки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер попытки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cef34222-b8c2-4969-94d9-b4fbb4a25133">
+    <name>Успешно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Успешно</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="d100cb99-0126-4571-bcfa-d378d918aa66">
+    <name>ДатаПоследнейПопытки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последней попытки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="0e70d87a-707a-4197-b0ea-eeffcb5fd7e7">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="cf64ba2e-c935-4ab3-9178-1911eb5e3308">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
